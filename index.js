@@ -4,7 +4,7 @@ const port = 3000;
 
 const requestListener = function (req, res) {
   switch (req.url) {
-    case "/users":
+    case "/about":
       res.writeHead(200);
       res.write("Welcome to about us page");
       res.end();
